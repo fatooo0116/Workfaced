@@ -1,0 +1,35 @@
+footer{
+    .site-info{
+        p{
+            font-weight: 200;
+            text-align: center;
+            line-height: 21px;;
+            margin-bottom: 5px;;
+            margin-top:0;
+        }
+    }
+}
+
+
+.clear_both{
+    clear:both;
+  }
+
+  .bottom_box{
+    display:flex;
+    flex-wrap: wrap;
+    .item{
+      width:30%;
+    }      
+  }
+
+
+
+  @media (max-width: 767px) {
+    .bottom_box{
+        padding:0 15px;
+        .item{
+            width:100%;
+        }
+    }
+}
